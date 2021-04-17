@@ -139,7 +139,7 @@ Link to Tutorial https://youtu.be/_TtBxvYwoHY
 </details>
 
 <details>
-<summary><b>Level 1 - Django Model Inheritance Options Introduction </b><sub> [Repo:9]</sub>
+<summary><b>Level 1 - Django Model Inheritance Options Introduction </b>
 </summary>
 <br>
 The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we introduce the idea of model inheritance using 3 options that Django provides, Abstract models, Multi-table model inheritance and Proxy models. I give you an overview of each and provide a small example of how to use each type of inheritance option.
