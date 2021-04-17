@@ -67,7 +67,7 @@ This course tries to cater for many types of learners:
 ## Course Content
 
 <details>
-<summary><b>Level 1 - What is the Django ORM?</b>[Repo:1]
+<summary><b>Level 1 - What is the Django ORM? </b><sub> [Repo:1]</sub>
 </summary>
 <br>
 A quick overview and demystification of the basics concepts of the Django ORM. The Django ORM is a core feature which we will be exploring in this tutorial series. You will get to know more about making queries and how that translates to SQL.
@@ -76,7 +76,7 @@ Link to Tutorial https://youtu.be/iQF6pln3Gog
 </details>
 
 <details>
-<summary><b>Level 1 - How to perform an OR query on a database - including Q objects</b>[Repo:2]
+<summary><b>Level 1 - How to perform an OR query on a database - including Q objects </b><sub> [Repo:2]</sub>
 </summary>
 <br>
 The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at creating OR queries both in native Django statements and using Q objects. In addition we take a look at the SQL that powers the queries and look to see how we can see the performance of our queries.
@@ -148,7 +148,7 @@ Link to Tutorial https://youtu.be/4Xag2FzmN60
 </details>
 
 <details>
-<summary><b>Level 1 - Towards SQL Optimization - Django Debug Toobar Package</b><sub>[Repo:10]</sub>
+<summary><b>Level 1 - Towards SQL Optimization - Django Debug Toobar Package </b><sub> [Repo:10]</sub>
 </summary>
 <br>
 Thinking more serious about Python Django means understanding a little more about the performance of our django application. As you might imagine there are many tools and methods to measure performance. Moving into that direction the django-debug-toolbar give us provide some useful information to help us start thinking about database/SQL optimizations. 
