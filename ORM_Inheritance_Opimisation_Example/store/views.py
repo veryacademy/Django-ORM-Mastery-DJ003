@@ -1,0 +1,29 @@
+from django.shortcuts import get_object_or_404, render
+
+from .models import Category, Product, Book, Cupboard
+
+
+def product_all(request):
+
+    products = Product.objects.all()
+
+    # cupboard = Cupboard.objects.all()
+    # book = Book.objects.all()
+    # # https://docs.djangoproject.com/en/dev/ref/models/querysets/#django.db.models.query.QuerySet.union
+    # products = cupboard.union(book)
+
+    # products = Product.objects.all().select_related('content_type')
+
+    # products = Product.objects.all().prefetch_related('book','cupboard')
+    return render(request, 'store/index.html', {'products': products})
+
+
+def category_list(request, category_slug=None):
+    category = get_object_or_404(Category, slug=category_slug)
+    products = Product.products.filter(category=category)
+    return render(request, 'store/category.html', {'category': category, 'products': products})
+
+
+def product_detail(request, slug):
+    product = get_object_or_404(Product, slug=slug, in_stock=True)
+    return render(request, 'store/single.html', {'product': product})
