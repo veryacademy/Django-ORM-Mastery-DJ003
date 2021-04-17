@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-The Django ORM’s main goal is to facilitate data transfer between a relational database, MySQL/Postgres and many others and the Django application model. The most convinent aspect of the ORM is that it automates this transmission, such that the developer need not learn or write any SQL. This is a powerful features of Django that enables rapid development of applications developed with the Django framework.
+The Django ORM’s main goal is to facilitate data transfer between a relational database, MySQL/Postgres and many others and the Django application model. The most convenient aspect of the ORM is that it automates this transmission, such that the developer need not learn or write any SQL. This is a powerful features of Django that enables rapid development of applications developed with the Django framework.
 </div>
 
 <br>
@@ -38,7 +38,7 @@ The aims of this course is to:
 * learn how to build applications using the Django framework ORM 
 
 ## Course Introduction
-The Django ORM mastery Series is designed for students who wants to learn the Django Framework ORM in more detail than that is normally presented on Django courses. Therefore, this course is a great way to start expanding your knowledge of Django development. We start from a beginners level slowly moving into more advanced topics. I have tried to design this course to be modular so that you could also focus in on particular subjects, tutorials or aspects of the Django ORM should you prefer this mode of learning.
+The Django ORM mastery Series is designed for students who wants to learn the Django Framework ORM in more detail than that is normally presented on Django courses. Therefore, this course is a great way to start expanding your knowledge of Django development. We start from a beginners level slowly moving into more advanced topics. I have tried to design this course to be modular so that you could also focus in on particular subjects, tutorials or aspects of the Django ORM should you prefer this mode of learning. Django as a powerful framework makes it easy to interact with database with the Django ORM. This allows you to directly map your object-oriented models to database table structures and in doing so also builds the data and table relationships.
 
 On this course you will be taught a wide range of skills, here are a few topics that we will be learning:
 
@@ -67,12 +67,106 @@ This course tries to cater for many types of learners:
 ## Course Content
 
 <details>
-<summary><b>Part-1 Building models, views and testing</b>
+<summary><b>Level 1 - What is the Django ORM?</b>
 </summary>
 <br>
-This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our e-commerce application.
+A quick overview and demystification of the basics concepts of the Django ORM. The Django ORM is a core feature which we will be exploring in this tutorial series. You will get to know more about making queries and how that translates to SQL.
 <br><br>
-Link to Tutorial https://youtu.be/UqSJCVePEWU
+Link to Tutorial https://youtu.be/iQF6pln3Gog
+</details>
+
+<details>
+<summary><b>Level 1 - How to perform an OR query on a database - including Q objects</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at creating OR queries both in native Django statements and using Q objects. In addition we take a look at the SQL that powers the queries and look to see how we can see the performance of our queries.
+<br><br>
+Link to Tutorial https://youtu.be/XbOUjyC--Ao
+</details>
+
+<details>
+<summary><b>Level 1 - How to perform an AND query on a database - including Q objects</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at creating AND queries both in native Django statements and using Q objects. In addition we take a look at the SQL that powers the queries and look to see how we can see the performance of our queries.
+<br><br>
+Link to Tutorial https://youtu.be/yuRisebNnvU
+</details>
+
+<details>
+<summary><b>Level 1 - How to perform a UNION query on a database</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at creating UNION queries on multiple select statements. In addition we take a look at the SQL that powers the queries and look to see how we can see the performance of our queries.
+<br><br>
+Link to Tutorial https://youtu.be/_kvvHXS-OZs
+</details>
+
+<details>
+<summary><b>Level 1 - How to perform a NOT query on a database - including Q Objects</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at creating NOT queries or Django exclude as it is known on multiple select statements. We look at a basic example of exclude as well as using Q objects to build a NOT query. In addition we take a look at the SQL that powers the queries and look to see how we can see the performance of our queries.
+<br><br>
+Link to Tutorial https://youtu.be/o2ZgwV8R2Rk
+</details>
+
+<details>
+<summary><b>Level 1 - Select and Output individual fields</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we take a look at how to select individual fields from a database and output the data onto a template.
+<br><br>
+Link to Tutorial https://youtu.be/fdkgcZHA0Ew
+</details>
+
+<details>
+<summary><b>Level 1 - Performing raw SQL queries</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we introduce the idea of running your own SQL queries, thus bypassing some of the Django ORM features. This is an introductory guide to help you get start with the general concepts and structure of building raw SQL queries.
+<br><br>
+Link to Tutorial https://youtu.be/iWDvsMOngxk
+</details>
+
+<details>
+<summary><b>Level 1 - Performing raw SQL queries without the ORM</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we introduce the idea of running your own SQL queries, thus bypassing the Django ORM features. This is an introductory guide to help you get start with the general concepts and structure of building SQL queries outside of the Django ORM.
+<br><br>
+Link to Tutorial https://youtu.be/_TtBxvYwoHY
+</details>
+
+<details>
+<summary><b>Level 1 - Django Model Inheritance Options Introduction</b>
+</summary>
+<br>
+The Django ORM series covers a range of common functions that you will perform on a database with Django. In this tutorial we introduce the idea of model inheritance using 3 options that Django provides, Abstract models, Multi-table model inheritance and Proxy models. I give you an overview of each and provide a small example of how to use each type of inheritance option.
+<br><br>
+Link to Tutorial https://youtu.be/4Xag2FzmN60
+</details>
+
+<details>
+<summary><b>Level 1 - Towards SQL Optimization - Django Debug Toobar Package</b>
+</summary>
+<br>
+Thinking more serious about Python Django means understanding a little more about the performance of our django application. As you might imagine there are many tools and methods to measure performance. Moving into that direction the django-debug-toolbar give us provide some useful information to help us start thinking about database/SQL optimizations. 
+
+This level of abstraction the ORM provides (although it does a great job) it can cloud our understanding the performance of our application. And as better performance can convert to lower running costs – its an important aspect of our development we need to know more about.  
+
+Starting your journey to database optimization, we need to understand what is happening behind the scenes or more importantly monitor SQL performance. If you have seen the other tutorials in this series we already know that we can collect information about SQL queries that be being executed. In this tutorial, although there are many various ways to log SQL queries, here we take a look at the package django-debug-toolbar – which as you will see provides more than just SQL information. Overall, it provides us some great insights into our application.
+<br><br>
+Link to Tutorial https://youtu.be/riBTlU6iMc4
+</details>
+
+<details>
+<summary><b>Level 2 - Python Django Inheritance Optimization Exercise</b>
+</summary>
+<br>
+In this Python Django tutorial we work through a set of examples to develop a better understanding of Django model inheritance. We try and answer the question of how to design a product table where we may need to have many types of product thus needing to create multiple tables.
+<br><br>
+Link to Tutorial https://youtu.be/Y4ahqzSs7nI
 </details>
 
 ## Community Driven Content
