@@ -67,7 +67,7 @@ This course tries to cater for many types of learners:
 ## Course Content
 
 <details>
-<summary><b>Level 1 - What is the Django ORM? </b><sub> [Repo:1]</sub>
+<summary><b>Level 1 - What is the Django ORM? </b>
 </summary>
 <br>
 A quick overview and demystification of the basics concepts of the Django ORM. The Django ORM is a core feature which we will be exploring in this tutorial series. You will get to know more about making queries and how that translates to SQL.
