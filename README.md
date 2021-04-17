@@ -161,6 +161,15 @@ Link to Tutorial https://youtu.be/riBTlU6iMc4
 </details>
 
 <details>
+<summary><b>Level 2 - Multiple Database Setup </b><sub> [Repo:9]</sub>
+</summary>
+<br>
+Python Django multiple database setup example with 3 databases and 2 applications. In this tutorial we look at Django’s support for interacting with multiple databases. This is a beginners introductory example helping us get familiar with setting up multiple databases with Django.
+<br><br>
+Link to Tutorial https://youtu.be/g-FCzzzjBWo
+</details>
+
+<details>
 <summary><b>Level 2 - Python Django Inheritance Optimization Exercise </b><sub> [Repo:20]</sub>
 </summary>
 <br>
