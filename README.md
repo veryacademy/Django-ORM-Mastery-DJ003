@@ -148,7 +148,7 @@ Link to Tutorial https://youtu.be/4Xag2FzmN60
 </details>
 
 <details>
-<summary><b>Level 1 - Towards SQL Optimization - Django Debug Toolbar Package </b><sub> [Repo:10]</sub>
+<summary><b>Level 1 - Towards SQL Optimization - Django Debug Toolbar Package </b>
 </summary>
 <br>
 Thinking more serious about Python Django means understanding a little more about the performance of our django application. As you might imagine there are many tools and methods to measure performance. Moving into that direction the django-debug-toolbar give us provide some useful information to help us start thinking about database/SQL optimizations. 
