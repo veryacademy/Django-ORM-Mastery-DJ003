@@ -161,6 +161,19 @@ Link to Tutorial https://youtu.be/riBTlU6iMc4
 </details>
 
 <details>
+<summary><b>Level 1 - First Look: Transaction Atomicity</b>
+</summary>
+<br>
+Django’s default behaviour is to run in autocommit mode, By default each query is immediately committed to the database, each SQL query gets wrapped in its own transaction and a transaction is automatically committed or rolled back.
+
+A transaction is a sequence of one or more SQL operations that are treated as a unit. All operations should be executed successfully in order to call the transaction successful. Transactions ideally have four properties, commonly known as ACID. This is a standard set of properties aimed to guarantee database transactions are processed reliably which is especially concerned with how a database recovers from any failure.
+
+Atomicity is the defining property of database transactions. Atomic require us to create a block of code within which the atomicity on the database is guaranteed.
+<br><br>
+Link to Tutorial https://youtu.be/BchP5Mn1IYg
+</details>
+
+<details>
 <summary><b>Level 2 - Multiple Database Setup </b><sub> [Repo:9]</sub>
 </summary>
 <br>
